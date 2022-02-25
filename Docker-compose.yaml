@@ -11,7 +11,7 @@ services:
         networks:
             - app-network
     db:
-        image: atanasrusneov/bgapp-db
+        image: atanasrusneov/demo-db
         networks:
             - app-network
         environment:
