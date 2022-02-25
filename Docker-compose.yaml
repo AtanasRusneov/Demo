@@ -14,8 +14,6 @@ services:
         image: atanasrusneov/bgapp-db
         networks:
             - app-network
-        deploy:
-            -replicas: 1
         environment:
             MYSQL_ROOT_PASSWORD: "${DB_ROOT_PASSWORD}"
 networks:
