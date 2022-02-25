@@ -1,7 +1,7 @@
 version: "3.8"
 services:
     web:
-        image: atanasrusneov/bgapp-web
+        image: atanasrusneov/demo-web
         deploy:
             replicas: 3
         ports:
